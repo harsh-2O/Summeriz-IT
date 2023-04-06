@@ -1,0 +1,2 @@
+(Optional) To make this the default JDK version, input the following in  Terminal : open ~/.bash_profile Then, add your Terminal input from step 3 to this file: # SWITCH TO JAVA VERSION 8 export JAVA_HOME=`/usr/libexec/java_home -v 1.8` Save and close the file
+Check your JDK version by inputting into  Terminal : java -version If you have followed all the steps correctly, the JDK version should correlate with the one you specified in the last step
